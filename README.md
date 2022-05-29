@@ -24,15 +24,17 @@ Travel Safe with `TravelCheck` which uses face recognition to check your identit
 
 [![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](https://drive.google.com/file/d/17eqzx6u1sRmUWyloLy0KRDuxjwKn2XIZ/view?usp=sharing) 
 
-Travel Check - Recently when I was travelling, 
- I went to the airport and just at the entrace, 
+Travel Check - Recently while I was travelling, I was in the airport, 
+ standing in the queue for the identity check and at the entrace, 
  I saw a man who stood there to check the aadhar 
  cards of the passengers and to match their faces 
- with it. Just then, a plenty of ideas came to my
- mind, to automate this system of face recognition at the airports.
+ with it. I realized that a lot of time and effort is needed to 
+ match the Identity card or Aadhar card of every person with their faces. 
+ Also, this is very error prone and this is something which cannot be ignored. 
+ Just then, I decided to build an automation system for face recognition.
  When we look closely, this product would have 
  application in many other fields too, let's say 
- for other travel modes.
+ for other travel modes, hospitals, classrooms and many more.
  
   ## Features and Interfaces
 
