@@ -4,8 +4,6 @@ from pathlib import Path
 
 faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-#img=cv2.imread("images\AkshitaSah.jpeg")
-
 vc = cv2.VideoCapture(0)
 
 print("Enter user id and name: ")
@@ -44,9 +42,6 @@ while True:
             break
     elif key == ord('q'):
         break
-
-    # if cv2.waitKey(1) & 0xFF == ord('q'):
-    #     break
 
 vc.release()
 cv2.destroyAllWindows()
