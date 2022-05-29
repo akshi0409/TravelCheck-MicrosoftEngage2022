@@ -39,7 +39,7 @@ Travel Check - Recently while I was travelling, I was in the airport,
   ## Features and Interfaces
 
 1. Landing Page
-   - Seamless landing page with a navigation bar at the top containing the `About Us`,`Register`,`Login` and `Contact Us` buttons for the users. It has the tagline of the product along with a quick one-liner description to provide information of what the website is about.
+   - Seamless landing page with a navigation bar at the top containing the `About Us`,`Register`,`Login` and `Contact Us` buttons for the users. It has the tagline of the product along with a description to provide information of what the website is about.
      ![image](https://user-images.githubusercontent.com/44814671/170825454-5d4f4b12-74df-462e-ab59-cf6638848718.png)
      
    - The home page contains 5 sections :- Landing page, a carousel section, weather details section, feedback section and a footer. 
