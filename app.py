@@ -30,19 +30,14 @@ vc = cv2.VideoCapture(0)
 def gen_video(aadharno, name):
     userId=aadharno
     userName=name
-    # img=cv2.imread("static/imgs/aadhar.jpeg")
     img = cv2.imread("./dataset/{}/{}".format(aadharno, "image.jpeg"))
     imgId=0
     count=0
-    #img=cv2.imread(imag)
     coords=[0,0,0,0]
     new_rgb = img.astype(np.uint8)
     def saveImage(img, userId, userName,imgId):
-        # Path("dataset/{}".format(userName)).mkdir(parents=True, exist_ok=True)
-        # cv2.imwrite("dataset/{}/{}_{}.jpg".format(userName, userId,imgId),img)
         Path("./dataset/{}".format(userName)).mkdir(parents=True, exist_ok=True)
         cv2.imwrite("./dataset/{}/{}-{}.jpg".format(userName, userId,imgId),img)
-        #img.save("dataset/{}/{}_1.jpg".format(userName, userId))
 
     while True:      
 
@@ -57,8 +52,6 @@ def gen_video(aadharno, name):
             coords = [x,y,w,h]
 
         cv2.imshow("identified faces", new_rgb)
-        # roi_img = originalImg[coords[1]:coords[1]+coords[3],coords[0]:coords[0]+coords[2]]
-        # saveImage(roi_img, userId, userName)
 
         if count<=2:
             roi_img = originalImg[coords[1]:coords[1]+coords[3],coords[0]:coords[0]+coords[2]]
@@ -69,29 +62,6 @@ def gen_video(aadharno, name):
             break
         cv2.destroyAllWindows()
         return train_model(name)
-        # originalImg = img
-
-        # gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-        # faces= faceCascade.detectMultiScale(gray_img, scaleFactor=1.2,minNeighbors=5,minSize=(50,50))
-
-        # for(x, y, w, h) in faces:
-        #     cv2.rectangle(img, (x,y), (x+w, y+h), (0,255,0), 2)
-        #     coords = [x,y,w,h]
-
-        # cv2.imshow("identified faces", img)
-        # # roi_img = originalImg[coords[1]:coords[1]+coords[3],coords[0]:coords[0]+coords[2]]
-        # # saveImage(roi_img, userId, userName)
-
-        # if count<=2:
-        #     roi_img = originalImg[coords[1]:coords[1]+coords[3],coords[0]:coords[0]+coords[2]]
-        #     saveImage(roi_img, userId, userName, count)
-        #     count += 1
-        #     time.sleep(2)
-        # else:
-        #     break
-        # cv2.destroyAllWindows()
-        # train_model()
 
 def congrats():
     redirect('\congratulations')
@@ -103,22 +73,12 @@ def train_model(name):
     for users in os.listdir("dataset"):
         names.append(users)
 
-    # for name in names:
-    #     for image in os.listdir("dataset/{}".format(name)):
-    #         path_string = os.path.join("dataset/{}".format(name),image)
-    #         paths.append(path_string)
     for image in os.listdir("dataset/{}".format(name)):
         path_string = os.path.join("dataset/{}/".format(name),image)
         paths.append(path_string)
     faces = []
     ids = []
 
-    # for img_path in paths:
-    #     image = Image.open(img_path).convert("L")
-    #     imgNp = np.array(image,"uint8")
-    #     faces.append(imgNp)
-    #     id = int(img_path.split("\\")[1].split("_")[0])
-    #     ids.append(id)
     print(paths.__len__)
     for img_path in paths:
         print(img_path)
@@ -141,7 +101,6 @@ def train_model(name):
     return render_template('recognize.html')
    
 def gen_frames():
-    # while True:
     ano="ABC"
     flag=0
     recognizer = cv2.face.LBPHFaceRecognizer_create()
@@ -207,13 +166,11 @@ def register():
         rgb_im = img.convert('RGB')
         rgb_im = rgb_im.save("./dataset/{}/{}".format(aadharno, "image.jpeg"))
         return gen_video(aadharno, name)
-        # gen_video(aadharno,name)
     return render_template('img.html')
 
 @app.route('/display/<upload_id>')
 def display(upload_id):
     upload = Upload.query.filter_by(id=upload_id).first()
-    # return send_file(BytesIO(upload.data))
     return send_file(BytesIO(upload.data), attachment_filename=upload.filename, as_attachment=False)    
 
 @app.route('/')
