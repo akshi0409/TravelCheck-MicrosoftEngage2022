@@ -71,12 +71,8 @@ Travel Check - Recently when I was travelling,
     $ git clone
   ```
     
- #### 2. Install node packages
-  * Write the following command and press enter to download all required node modules.
- 
-   ```
-   $ pip install flask 
-  ```
+ #### 2. Install flask packages
+  * Install flask and add flask to the path variables.
   
 #### 3. Run Locally
 
@@ -85,8 +81,6 @@ Travel Check - Recently when I was travelling,
  ```
    $ flask run
  ```
-  
- ###### NOTE: The port by default will be ```http://localhost:443/```
 
 ## 🚩 Future Scopes:-
 Feature | Explanation
