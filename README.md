@@ -54,11 +54,11 @@ Travel Check - Recently when I was travelling,
      
 2. About Us Page
    - The about us page contains a whole timeline of the work done during the whole duration of 3 weeks and why this idea was chosen.
-     ![image]![11 (1)](https://user-images.githubusercontent.com/44814671/170884389-f7dddf25-77ab-43ea-938a-cbf67efe6d81.jpeg)
+     ![11 (1)](https://user-images.githubusercontent.com/44814671/170884389-f7dddf25-77ab-43ea-938a-cbf67efe6d81.jpeg)
      
-     ![image]![11 (2)](https://user-images.githubusercontent.com/44814671/170884400-33784146-e9de-454d-afd8-0f85ee77d859.jpeg)
+     ![11 (2)](https://user-images.githubusercontent.com/44814671/170884400-33784146-e9de-454d-afd8-0f85ee77d859.jpeg)
 
-     ![image]![11 (3)](https://user-images.githubusercontent.com/44814671/170884413-301d359f-9095-4e04-88de-25ebd67adcac.jpeg)
+     ![11 (3)](https://user-images.githubusercontent.com/44814671/170884413-301d359f-9095-4e04-88de-25ebd67adcac.jpeg)
 
 
 3. Registration Page
@@ -69,7 +69,7 @@ Travel Check - Recently when I was travelling,
 4. Login Page
    - To get verified, the user has to click the login button, which redirects the user to the login page.
    - Step 1- Fill in the unique aadhar card number.
-     ![image]<img width="946" alt="7" src="https://user-images.githubusercontent.com/44814671/170834782-6a7c1b2c-dbac-4f85-8eb4-75aba0ec2c0b.png">
+     <img width="946" alt="7" src="https://user-images.githubusercontent.com/44814671/170834782-6a7c1b2c-dbac-4f85-8eb4-75aba0ec2c0b.png">
    - Step 2 - The camera video feed is displayed on their screen. If the image gets detected a square box would appear around their faces with their Aadhar number written on it. They have to click on the verify me button. 
    - ![image](https://user-images.githubusercontent.com/44814671/170835154-dcbf1b0c-c5a1-4c28-bfbd-b3485f914841.png)
    - Step 3 - If the verification is successful, another page appears confirming that they have been verified.
