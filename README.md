@@ -54,6 +54,12 @@ Travel Check - Recently when I was travelling,
      
 2. About Us Page
    - The about us page contains a whole timeline of the work done during the whole duration of 3 weeks and why this idea was chosen.
+     ![image]![11 (1)](https://user-images.githubusercontent.com/44814671/170884389-f7dddf25-77ab-43ea-938a-cbf67efe6d81.jpeg)
+     
+     ![image]![11 (2)](https://user-images.githubusercontent.com/44814671/170884400-33784146-e9de-454d-afd8-0f85ee77d859.jpeg)
+
+     ![image]![11 (3)](https://user-images.githubusercontent.com/44814671/170884413-301d359f-9095-4e04-88de-25ebd67adcac.jpeg)
+
 
 3. Registration Page
    - As the user clicks on the register button, they are redirected to the registration site. This site collects the basic data from the user including their name, phone number, email address, aadhar card number and the aadhard has to be uploaded in that web page. The web site collects the data from the user and stores it.
