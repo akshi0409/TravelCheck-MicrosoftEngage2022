@@ -1,10 +1,29 @@
  # TravelCheck - Face Recognition Web App
 ## Submission for Microsoft Engage 2022 🌟
 
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshi0409/TravelCheck-MicrosoftEngage2022?logo=github&style=for-the-badge)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022) 
+[![GitHub last commit](https://img.shields.io/github/last-commit/akshi0409/TravelCheck-MicrosoftEngage2022?style=for-the-badge&logo=git)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022) 
+[![GitHub stars](https://img.shields.io/github/stars/akshi0409/TravelCheck-MicrosoftEngage2022?style=for-the-badge)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022stargazers) 
+[![My stars](https://img.shields.io/github/stars/akshi0409?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=My%20stars)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022e/stargazers) 
+[![GitHub forks](https://img.shields.io/github/forks/akshi0409/TravelCheck-MicrosoftEngage2022?style=for-the-badge&logo=git)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022/network)
+[![Code size](https://img.shields.io/github/languages/code-size/akshi0409/TravelCheck-MicrosoftEngage2022?style=for-the-badge)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022)
+[![Languages](https://img.shields.io/github/languages/count/akshi0409/TravelCheck-MicrosoftEngage2022?style=for-the-badge)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022)
+[![Top](https://img.shields.io/github/languages/top/akshi0409/TravelCheck-MicrosoftEngage2022?style=for-the-badge&label=Top%20Languages)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022)
+[![Issues](https://img.shields.io/github/issues/akshi0409/TravelCheck-MicrosoftEngage2022?style=for-the-badge&label=Issues)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022)
+[![Watchers](	https://img.shields.io/github/watchers/akshi0409/TravelCheck-MicrosoftEngage2022?label=Watch&style=for-the-badge)](https://github.com/akshi0409/TravelCheck-MicrosoftEngage2022) 
+
 Travel Safe with `TravelCheck` which uses face recognition to check your identity.
  Face Recognition System  -  Recognition of face 
  using our Identity Card (Aadhar Card)
- 
+
+<p align="center">
+<a href="https://drive.google.com/file/d/17eqzx6u1sRmUWyloLy0KRDuxjwKn2XIZ/view?usp=sharing">
+<img src="https://user-images.githubusercontent.com/44814671/170883919-5d948bb9-ee22-4921-b84f-5b105b941813.jpeg" alt="TravelCheck-logo"/>
+</a>
+</p>
+
+[![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](https://drive.google.com/file/d/17eqzx6u1sRmUWyloLy0KRDuxjwKn2XIZ/view?usp=sharing) 
+
 Travel Check - Recently when I was travelling, 
  I went to the airport and just at the entrace, 
  I saw a man who stood there to check the aadhar 
